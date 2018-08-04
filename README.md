@@ -81,7 +81,7 @@ mkdir my-project
 cd my-project
 
 train --model-name awesome-model \
---embeddings {"Product_ID":100, "User_ID":100} \
+--embeddings '{"Product_ID":100, "User_ID":100}' \
 --crossings '["Age", "Gender", "ind", 1]' \
 --hidden-units 500 400 300 200 \
 --training-steps 15000
