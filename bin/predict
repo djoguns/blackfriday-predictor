@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+
+from blackfridaylib.__main__ import predictor_interface
+from blackfridaylib.predictor import main
+
+
+if __name__ == '__main__':
+  args = predictor_interface()
+  main(args)
